@@ -11,6 +11,9 @@
 * 11654 : ASCII
 * 2744 : int gap = 'a' - 'A'; //ASCII trick
 * 15964 : #define MACRO_FUNCTION()
+* 31403 : stoi(string str);
+* 10250 : cout.fill('0'); cout.width(2); cout.flags(ios::left);
+* 2577 : to_string(int A);
 
 
 
