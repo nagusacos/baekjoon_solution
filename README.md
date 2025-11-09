@@ -24,10 +24,11 @@
 * 11866 : circular linked list
 * 10816 : map
 * 10814 : sort(A, A + N, order);
+* : priority queue
 
 
 
-# 2.Basic Number Theory
+# 2.Basic Number Theory and Geometry
 
 * 2609 : gcd, lcm, and euclidean algorithm
 
@@ -36,10 +37,37 @@
 # 3.Basic Algorithm
 
 * 14940, 7576, 7569, 10026 : BFS
-* 1931 : greedy
+* : DFS
+* : backtracking
+* : binary search
+* 1931 : greedy algorithm
 
 
 
-### Fresh Problem
+# 4.Mathematical Trick
+
+* : partial sum
+* : segment tree
+* : sliding window(maximum trick of deque)
+
+
+
+# 5.Divide and Conquer
+
+
+
+# 6.Dynamic Programming
+
+
+
+# 7.Graph Theory
+
+
+
+# 8.Mathematical Induction
+
+
+
+# -1.Fresh Problem
 
 * 9019
