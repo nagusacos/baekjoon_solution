@@ -17,4 +17,29 @@
 
 
 
-# 1.
+# 1.Data Structure and STL
+
+* 10828 : stack
+* 10835 : queue
+* 11866 : circular linked list
+* 10816 : map
+* 10814 : sort(A, A + N, order);
+
+
+
+# 2.Basic Number Theory
+
+* 2609 : gcd, lcm, and euclidean algorithm
+
+
+
+# 3.Basic Algorithm
+
+* 14940, 7576, 7569, 10026 : BFS
+* 1931 : greedy
+
+
+
+### Fresh Problem
+
+* 9019
