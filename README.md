@@ -71,3 +71,7 @@
 # -1.Fresh Problem
 
 * 9019
+
+# -2.TMI
+
+* 10920 : ??! is trigraphs
