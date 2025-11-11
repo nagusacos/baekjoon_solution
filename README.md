@@ -58,7 +58,7 @@
 
 # 6.Dynamic Programming
 
-
+* 9251, 9252 : LCS
 
 # 7.Graph Theory
 
