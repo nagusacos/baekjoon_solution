@@ -58,7 +58,10 @@
 
 # 6.Dynamic Programming
 
+* 1463 : to the 1
+* 11726, 11727 : 2*n tiling
 * 9251, 9252 : LCS
+
 
 # 7.Graph Theory
 
