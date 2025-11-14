@@ -36,17 +36,16 @@
 
 # 3.Basic Algorithm
 
-* 14940, 7576, 7569, 10026 : BFS
+* 14940, 7576, 7569, 10026, 1012 : BFS
 * : DFS
 * : backtracking
 * : binary search
-* 1931 : greedy algorithm
 
 
 
 # 4.Mathematical Trick
 
-* : partial sum
+* 11659 : partial sum
 * : segment tree
 * : sliding window(maximum trick of deque)
 
@@ -54,20 +53,30 @@
 
 # 5.Divide and Conquer
 
+* 2630 : 
+
 
 
 # 6.Dynamic Programming
 
 * 1463 : to the 1
 * 11726, 11727 : 2*n tiling
-* 9251, 9252 : LCS
-
-
-# 7.Graph Theory
+* 9251, 9252, 1958 : LCS
+* 5582 : continuous LCS
 
 
 
-# 8.Mathematical Induction
+# 7.Greedy Algorithm
+
+
+* 1931, 11399
+
+
+# 8.Graph Theory
+
+
+
+# 9.Mathematical Induction
 
 
 
