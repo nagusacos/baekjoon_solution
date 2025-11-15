@@ -24,7 +24,7 @@
 * 11866 : circular linked list
 * 10816 : map
 * 10814 : sort(A, A + N, order);
-* : priority queue
+* 1927, 11279 : priority queue
 
 
 
@@ -54,7 +54,8 @@
 # 5.Divide and Conquer
 
 * 2630 : 
-
+* 2447, 11729 : recursive function
+* 11444 : Fibonacci sequence
 
 
 # 6.Dynamic Programming
@@ -63,6 +64,7 @@
 * 11726, 11727 : 2*n tiling
 * 9251, 9252, 1958 : LCS
 * 5582 : continuous LCS
+* 12865 : 
 
 
 

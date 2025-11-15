@@ -1,4 +1,83 @@
 #include <iostream>
+using namespace std;
+
+int main() {
+	cin.tie(nullptr);
+	cout.tie(nullptr);
+	ios_base::sync_with_stdio(false);
+
+	int T;
+	cin >> T;
+	for (;T-- > 0;) {
+		int X, Y;
+		cin >> X >> Y;
+
+		char DSLR[10001]{ 0, };
+		int order[10001]{ 0, };
+		int Q[10002]{ 0, };
+		int q = 0;
+
+		char command[4] = { 'D','S','L','R' };
+
+		Q[q++] = X;
+		DSLR[Q[0]] = 0;
+		order[Q[0]] = 1;
+		for (int n = 0;n < q;n++) {
+			int calculate[4] = { (Q[n] * 2) % 10000 ,(Q[n] - 1 < 0 ? 9999 : Q[n] - 1),(Q[n] % 1000) * 10 + (Q[n] / 1000),(Q[n] / 10) + (Q[n] % 10) * 1000 };
+			for (int i = 0;i < 4;i++) {
+				if (order[calculate[i]] <= 0) {
+
+					Q[q] = calculate[i];
+
+					order[Q[q]] = order[Q[n]] + 1;
+					DSLR[Q[q]] = command[i];
+
+					if (Q[q] == Y) {
+						n = q;
+						break;
+					}
+					q++;
+				}
+			}
+		}
+
+		char* value = new char[order[Q[q]] + 1];
+		int len = 0;
+
+		for (int pre = Q[q];pre != X;) {
+			value[len++] = DSLR[pre];
+
+			if (DSLR[pre] == 'D') {
+				pre /= 2;
+				if (order[pre] <= 0 || order[pre] >= order[pre * 2])
+					pre += 5000;
+			}
+			else if (DSLR[pre] == 'S') {
+				pre += 1;
+				if (pre > 9999)
+					pre = 0;
+			}
+			else if (DSLR[pre] == 'L') {
+				pre = (pre / 10) + (pre % 10) * 1000;
+			}
+			else if (DSLR[pre] == 'R') {
+				pre = (pre % 1000) * 10 + (pre / 1000);
+			}
+		}
+		len--;
+		for (;len >= 0;)
+			cout << value[len--];
+		cout << "\n";
+
+		delete[] value;
+	}
+}//This code is about twice as fast. It is a more efficient code in reverse tracking.
+
+
+
+//first solution
+/*
+#include <iostream>
 #include <queue>
 using namespace std;
 
@@ -69,3 +148,4 @@ int main() {
 		cout << "\n";
 	}
 }
+*/
