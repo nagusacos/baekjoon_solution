@@ -43,20 +43,19 @@
 
 
 
-# 4.Mathematical Trick
-
-* 11659 : partial sum
-* : segment tree
+# 4.Data Structure Trick
 * : sliding window(maximum trick of deque)
+* : segment tree
 
 
 
 # 5.Divide and Conquer
 
-* 2630 : 
 * 2447, 11729 : recursive function
-* 11444 : Fibonacci sequence
-* 14601 
+* 1629 : exponentiation by squaring
+* 10830, 5095, 11444 : exponentiation of matrix by squaring
+* 2630, 14601 : divide area
+* 6549 : divide continuous interval
 
 
 # 6.Dynamic Programming
@@ -70,17 +69,24 @@
 
 
 
-# 7.Greedy Algorithm
+# 7.Mathematical Trick
 
+* 11659 : partial sum
+* 27435 : matrix form of recurrence relation
+
+
+
+# 8.Greedy Algorithm
 
 * 1931, 11399
 
 
-# 8.Graph Theory
+
+# 9.Graph Theory
 
 
 
-# 9.Mathematical Induction
+# 10.Mathematics
 
 
 
@@ -90,4 +96,4 @@
 
 # -2.TMI
 
-* 10920 : ??! is trigraphs
+* 10920 : "??!" is trigraphs
