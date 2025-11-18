@@ -56,6 +56,7 @@
 * 2630 : 
 * 2447, 11729 : recursive function
 * 11444 : Fibonacci sequence
+* 14601 
 
 
 # 6.Dynamic Programming
