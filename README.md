@@ -14,8 +14,8 @@
 * 31403 : stoi(string str);
 * 10250 : cout.fill('0'); cout.width(2); cout.flags(ios::left);
 * 2577 : to_string(int A);
-
-
+* 11721 : cin.width(10);
+* 1924 :
 
 # 1.Data Structure and STL
 
@@ -36,6 +36,7 @@
 
 # 3.Basic Algorithm
 
+* 8393 : sum formula
 * 14940, 7576, 7569, 10026, 1012 : BFS
 * : DFS
 * : backtracking
@@ -93,6 +94,7 @@
 # -1.Fresh Problem
 
 * 9019
+* drawing star : 2438, 2439, 2440, 2441, 2442, 2443, 2444, 2445, 2522, 2446, 10991, 10992
 
 # -2.TMI
 
