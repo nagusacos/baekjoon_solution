@@ -47,7 +47,7 @@
 # 4.Data Structure Trick
 * : sliding window(maximum trick of deque)
 * : segment tree
-
+* 1182, 14391 : bitmasking
 
 
 # 5.Divide and Conquer
