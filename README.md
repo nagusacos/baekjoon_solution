@@ -45,8 +45,9 @@
 
 
 # 4.Data Structure Trick
-* : sliding window(maximum trick of deque)
-* : segment tree
+* : sliding window
+* 11003, 15678 : maximum trick of deque
+* 2042, 2357, 11505 : segment tree
 * 1182, 14391 : bitmasking
 
 
