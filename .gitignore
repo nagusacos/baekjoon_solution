@@ -1,12 +1,3 @@
-*.
-*.d
-*.slo
-*.lo
-*.o
-*.obj
-*.dylib
-*.dll
-*.lib
-*.exe
-*.out
-*.app
+*
+!*.cpp
+!*.md
