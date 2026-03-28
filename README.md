@@ -91,6 +91,11 @@
 # 10.Mathematics
 
 
+# 11.Number Theory
+
+4355: euler phi function
+9359: euler phi in range
+11525, 13076: farey seqence
 
 # -1.Fresh Problem
 
