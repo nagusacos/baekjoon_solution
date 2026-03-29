@@ -93,9 +93,11 @@
 
 # 11.Number Theory
 
-4355: euler phi function
-9359: euler phi in range
+4355: Euler phi function
+9359: Euler phi function on interval
 11525, 13076: farey seqence
+4149: Miller-Rabin primality test
+4149: Pollard's rho algorithm
 
 # -1.Fresh Problem
 
