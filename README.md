@@ -86,18 +86,22 @@
 
 # 9.Graph Theory
 
-
+* 12850 : Adjacency Matrix
 
 # 10.Mathematics
 
 
 # 11.Number Theory
 
-4355: Euler phi function
-9359: Euler phi function on interval
-11525, 13076: farey seqence
-4149: Miller-Rabin primality test
-4149: Pollard's rho algorithm
+* 4355: Euler phi function
+* 9359: Euler phi function on interval
+* 11525, 13076: farey seqence
+* 4149, 5615: Miller-Rabin primality test
+* 4149: Pollard's rho algorithm
+* 3955: Extended Eucildean Algorithm
+* 17633: Fermat's Theorem on Sums of Two Squares
+* 17633: Legendre's Three-Square Theorem
+* 17633: Lagrange's Four-Square Theorem
 
 # -1.Fresh Problem
 
