@@ -46,6 +46,7 @@
 
 # 4.Data Structure Trick
 * : sliding window
+* 2170 : sweeping
 * 11003, 15678 : maximum trick of deque
 * 2042, 2357, 11505 : segment tree
 * 1182, 14391 : bitmasking
@@ -93,6 +94,7 @@
 
 # 11.Number Theory
 
+* 11401: Combination
 * 4355: Euler phi function
 * 9359: Euler phi function on interval
 * 11525, 13076: farey seqence
