@@ -94,7 +94,8 @@
 
 # 11.Number Theory
 
-* 11401: Combination
+* 11401: Modular inverse for combination
+* 11402: Lucas's theorem
 * 4355: Euler phi function
 * 9359: Euler phi function on interval
 * 11525, 13076: farey seqence
